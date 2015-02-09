@@ -1,0 +1,113 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="telephone=no" name="format-detection" />
+<title>Cross webApp v1.0</title>
+<link rel="stylesheet" type="text/css" href="styles/base.css"  />
+<link rel="stylesheet" type="text/css" href="styles/cross.css"  />
+<script type="text/javascript" charset="utf-8" src="scripts/zepto.js"></script>
+<script type="text/javascript" charset="utf-8" src="scripts/zepto.touch2mouse.js"></script>
+<script type="text/javascript" charset="utf-8" src="scripts/iscroll.js"></script>
+<script type="text/javascript" charset="utf-8" src="scripts/cross.js"></script>
+	<!-- component  -->
+	<link rel="stylesheet" type="text/css" href="styles/iconfont/iconfont.css"  />
+	<link rel="stylesheet" type="text/css" href="styles/button.css"  />
+	<link rel="stylesheet" type="text/css" href="styles/form.css">
+
+	<script type="text/javascript" charset="utf-8" src="scripts/imglazyload.js"></script>
+    
+</head>
+<body>
+
+<div id="pages">
+    <!-- 主体 -->
+    <div id="mains">
+        <div id="layout">
+        	<!-- 首页 -->
+            <section id="homePage" class="selected" data-transition="slideLeft">
+            	<!-- 头部 -->
+                <header>
+                    <div class="home-header">
+                        <a id="sidebarBadge" data-target="sidebar"><i class="iconfont icon-list iconfont-2x"></i></a>
+                        <h1>Cross v1.0</h1>
+                        <a id="widgetsBadge" data-target="widgets"><i class="iconfont icon-addressbook iconfont-2x"></i></a>
+                    </div>
+                </header>
+                
+                <article class="wrapper" data-scroll="true">
+                    <div id="scroller" class="app-iscroll">
+                        <ul>
+                            <li><a href="#news01?a=1&b=2" data-target="section" data-transition="slideLeft">转场效果（sliderLeft）</a></li>
+                            <li><a href="#news02" data-target="section" data-transition="slideUp" data-refreshing="true">转场效果（slideUp）</a></li>
+                            <li><a href="#news03" data-target="section" data-transition="popup">转场效果（popup）</a></li>
+                            <li><a href="#button" data-target="section" data-transition="slideLeft">按钮</a></li>
+                            <li><a href="#forms" data-target="section" data-transition="slideLeft">表单（时间控件）</a></li>
+                            <li><a href="#carousel" data-target="section" data-transition="slideLeft">slider(图片轮播)</a></li>
+                            <li><a href="#imglazyload" data-target="section" data-transition="slideLeft" data-imglazyload="true" data-refreshing="true">图片延时加载</a></li>
+                            <li><a href="#tabSlider" data-target="section" data-transition="slideLeft">选项卡及图片轮播</a></li>
+                            <li><a href="#pulltorefresh" data-target="section" data-transition="slideLeft" data-refreshing="true">上下拉动更新内容</a></li>
+                            <li><a href="#dialog" data-target="section" data-transition="slideLeft">弹出框</a></li>
+                            <li><a href="#gotop" data-target="section" data-transition="slideLeft" data-gotop="true" data-refreshing="true">返回顶部</a></li>
+                            <li><a href="#iconfont" data-target="section" data-transition="slideLeft" data-gotop="true">图标(iconfont)</a></li>
+                            <li><a href="#probe" data-target="section" data-transition="slideLeft">探针(获取被卷走的值)</a></li>
+                            <li><a href="#news11" data-target="section" data-transition="slideLeft">导航栏</a></li>
+                            <li><a href="http://www.hao123.com">hao123 row 26</a></li>
+                            <li onClick="alert(44)">Pretty row 27</li>                    
+                        </ul>
+                	</div>
+                </article>
+                <!-- 底部 -->
+                <footer>
+                    
+                </footer>              
+            </section>
+        </div>
+    </div>
+    <!-- 左侧 -->
+    <div id="sidebar">
+        <div class="sidebar-wrap">
+            <div class="logo">
+                <div class="img"><img src="images/pic/logo.png" /></div>
+                <div class="title">Cross webApp</div>
+            </div>
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-search"></i>搜索</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-favor"></i>收藏</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-notificationfill"></i>通知</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-present"></i>活动</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-settings"></i>设置</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-comment"></i>反馈</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-mobile"></i>应用推荐</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-flashlightclose"></i>特卖</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-selection"></i>头彩</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-footprint"></i>段子</a></li>                
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-attentionfill"></i>医院</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-deliver"></i>快递</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-qrcode"></i>数据</a></li>
+                    <li><a href="#news02" data-target="section"  data-transition="slideLeft"><i class="iconfont icon-camera"></i>视频</a></li>
+                </ul>
+            </div>
+            <div class="channel">
+                <ul class="clearfix">
+                    <li><a href="#"><i class="iconfont icon-friend iconfont-2x"></i><span>朋友</span></a></li>
+                    <li><a href="#"><i class="iconfont icon-activity iconfont-2x"></i><span>路线</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧  -->
+    <div id="widgets">
+        <div class="widgets-wrap">
+            <h2>自定义内容</h2>
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>
